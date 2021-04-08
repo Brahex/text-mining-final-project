@@ -15,7 +15,6 @@ As somewhat mentioned in the abstract we are thinking about these research quest
   2) Can we create a song writing program that takes a users' input to generate lyrics
 
 
-
 ## Dataset
 For this project we want to use this dataset: https://bigml.com/dashboard/dataset/606f75b49f670413420025a8
 The dataset contains 516,165 different song lyrics that can be downloaded in .csv format.
@@ -25,6 +24,8 @@ It comes from a websites created for machine learning practices and the data has
 In the first week, we want to get more familiar with the data and have a definitive research question.
 In the second week (also up until the project update), we hope to have a clear idea of the structure of our code. Preferably a Towardsdatascience / Medium tutorial(s) that we can base parts of of our code on.
 By that point, when we are expecting to be familiar with the tasks at hand we plan to distribute the tasks and that will also impact our schedule. When we know more we will update it here.
+
+We are meeting on Sunday to discuss the exact workplan and division of roles, so a more detailed version of the list of milestones (and a choice for the research question) will be in the repo by then.
 
 ## Documentation
 Currently not relevant
