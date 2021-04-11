@@ -1,5 +1,5 @@
-## Text Mining Group Assignment:
-# Sarah de Jong, Tom Klein Tijssink, Lukas Busch
+# Text Mining Group Assignment:
+### Sarah de Jong, Tom Klein Tijssink, Lukas Busch
 
 ## Abstract
 For our project we want to investigate song lyrics.
