@@ -33,6 +33,9 @@ We will not use the first method, since the fact that the generated lyrics is no
 
 We have also looked at how other people that generated lyrics evaluated their lyrics. Generally, they seemed to not really evaluate their result or just use the last approach, by judging themselves if it looks good (see links below). However, we think judging the morphological and syntactic correctness could help us with this evaluation.
 
+### Transfer learning
+As an alternative approach, we are also looking at transfer learning. The simpler open and pretrained version of GPT-2 can potentially be used. For this we can potentially look at https://snappishproductions.com/blog/2020/03/01/chapter-9.5-text-generation-with-gpt-2-and-only-pytorch.html.html or for freezing layers we can look at https://github.com/prateekjoshi565/Fine-Tuning-BERT/blob/master/Fine_Tuning_BERT_for_Spam_Classification.ipynb
+
 Sources:
 - https://towardsdatascience.com/generating-eminem-lyrics-using-neural-networks-96e7f9c45e8a
 - https://gsurma.medium.com/text-predictor-generating-rap-lyrics-with-recurrent-neural-networks-lstms-c3a1acbbda79
