@@ -36,3 +36,5 @@ The src folder in this repository contains our work. We did not put all our code
 - lstm_model_training.ipynb, which contains the training of our word based lstm model
 - lstm_model_evaluation.ipynb, which contains the evaluation of our word based lstm model (note that these are separate because we put them separate at first and did not want to rerun it due to time constraints)
 - GPT_2_Text_generation.ipynb, which contains the training and evaluation of our GPT-2 model
+
+Our results can be reproduced by unzipping the data-set. Then, start by running the code in sentiment_analysis/Sentiment_Analysis.ipynb and sentiment_analysis/predicting_sentiments.ipynb. Next, you can run the code for each model.
