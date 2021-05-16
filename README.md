@@ -30,12 +30,14 @@ The src folder in this repository contains our work. We did not put all our code
 - data/negative_pop.txt, which contains the negative songs of our data-set in a text file
 - data/positive_pop.txt, which contains the positive songs of our data-set in a text file
 - dataexploration.ipynb, which contains a very simple data exploration for us to explore some characteristics of the data set
-- sentiment_analysis/Sentiment_Analysis.ipynb, which contains the training of a BERT model to predict sentiments on a dataset of poetic verses.
+- sentiment_analysis/Sentiment_Analysis.ipynb, which contains the training of a BERT model to predict sentiments on a dataset of poetic verses
 - sentiment_analysis/predicting_sentiments.ipynb, which contains the predicting of sentiments of our songs with the BERT model.
 - Ngram_model.ipynb, which contains the training and evaluation of our basic n-gram model
 - Lstm_character_model.ipynb, which contains the training and evaluation of our character based lstm model
 - lstm_model_training.ipynb, which contains the training of our word based lstm model
 - lstm_model_evaluation.ipynb, which contains the evaluation of our word based lstm model (note that these are separate because we put them separate at first and did not want to rerun it due to time constraints)
 - GPT_2_Text_generation.ipynb, which contains the training and evaluation of our GPT-2 model
+
+The repository also includes our report and the slides for the presentation.
 
 Our results can be reproduced by unzipping the data-set. Then, in order to reproduce our results, you need to start by running the code in sentiment_analysis/Sentiment_Analysis.ipynb and sentiment_analysis/predicting_sentiments.ipynb. Next, you can run the code for each model.
