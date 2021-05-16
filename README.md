@@ -2,14 +2,14 @@
 ### Sarah de Jong, Tom Klein Tijssink, Lukas Busch
 
 ## Abstract
-The goal of this report is to explore different machine learning approaches to generate song lyrics. We use a dataset that contains 380.000 songs. First, we use a BERT model in order to add a positive or negative sentiment to each song. Then, we explore a simple N-gram model, a word-based LSTM, a character-based LSTM, and a GPT-2 model to generate song lyrics by using N-grams. After evaluating the results with a survey, it is found that the GPT-2 model performs best.
+The goal of this report is to explore different machine learning approaches to generate song lyrics. We use a dataset that contains 362.237 songs. First, we use a BERT model in order to add a positive or negative sentiment to each song. Then, we explore a simple N-gram model, a word-based LSTM, a character-based LSTM, and a GPT-2 model to generate song lyrics by using N-grams. After evaluating the results with a survey, it is found that the GPT-2 model performs best.
 
 ## Research questions
 Can we create a song writing program that takes a number of words as well as a genre and sentiment (positive/negative) to generate lyrics?
 
 ## Dataset
 For this project, we used the dataset 380000-lyrics-from-metrolyrics, because this dataset includes lyrics as well as genres. It was originally available on kaggle, but it currently is not anymore. We retrieved the data from a project from last year: https://github.com/ludovicaschaerf/TMCI_Project.
-The dataset contains 380,000 different songs, which includes the artist, year, genre, and lyric. It can be downloaded in csv format.
+The dataset contains 362.237 different songs, which includes the artist, year, genre, and lyric. It can be downloaded in csv format.
 
 ## A tentative list of milestones for the project
 - Week 1 - Determine topic
@@ -29,6 +29,7 @@ The src folder in this repository contains our work. We did not put all our code
 - data/popsongs.txt, which is our data-set in a text file
 - data/negative_pop.txt, which contains the negative songs of our data-set in a text file
 - data/positive_pop.txt, which contains the positive songs of our data-set in a text file
+- dataexploration.ipynb, which contains a very simple data exploration for us to explore some characteristics of the data set
 - sentiment_analysis/Sentiment_Analysis.ipynb, which contains the training of a BERT model to predict sentiments on a dataset of poetic verses.
 - sentiment_analysis/predicting_sentiments.ipynb, which contains the predicting of sentiments of our songs with the BERT model.
 - Ngram_model.ipynb, which contains the training and evaluation of our basic n-gram model
