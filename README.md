@@ -14,9 +14,9 @@ The dataset contains 380,000 different songs, which includes the artist, year, g
 ## A tentative list of milestones for the project
 - Week 1 - Determine topic
 - Week 2 - Do sentiment analysis, determine method of evaluation, look at first model
-- Week 3 - Try more models 
-- Week 4 - Try more models
-- Week 5 - Try more models
+- Week 3 - Try more models (see below for what we ended up looking at)
+- Week 4 - Try more models (see below for what we ended up looking at)
+- Week 5 - Try more models (see below for what we ended up looking at)
 - Week 6 - Do survey for evaluation, clean up code, write report, prepare presentation
 
 ## Division of the work
