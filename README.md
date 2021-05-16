@@ -12,12 +12,12 @@ For this project, we used the dataset 380000-lyrics-from-metrolyrics, because th
 The dataset contains 380,000 different songs, which includes the artist, year, genre, and lyric. It can be downloaded in csv format.
 
 ## A tentative list of milestones for the project
-Week 1 - Determine topic
-Week 2 - Do sentiment analysis, determine method of evaluation, look at first model
-Week 3 - Try more models 
-Week 4 - Try more models
-Week 5 - Try more models
-Week 6 - Do survey for evaluation, clean up code, write report, prepare presentation
+- Week 1 - Determine topic
+- Week 2 - Do sentiment analysis, determine method of evaluation, look at first model
+- Week 3 - Try more models 
+- Week 4 - Try more models
+- Week 5 - Try more models
+- Week 6 - Do survey for evaluation, clean up code, write report, prepare presentation
 
 ## Division of the work
 We met about 10 times to discuss the progress and the project. In the first week, we determined the topic together. In the second week, Lukas did the sentiment analysis of the songs, Tom looked at an N-gram RNN model, and Sarah looked at ways to evaluate the songs. In the third week, Lukas looked at the GPT-2 model and Sarah tried to implement the N-gram RNN model for a larger number of songs, which used too many resources and which is therefore not in the final project. In the fourth and fifth week, Sarah looked at a basic N-gram model and Tom and Lukas both looked at an LSTM model. In the sixth week, we cleaned up the code and repository, did the evaluation of our songs with a survey, wrote the report, and prepared for the presentation.
