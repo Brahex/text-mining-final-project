@@ -2,7 +2,7 @@
 ### Sarah de Jong, Tom Klein Tijssink, Lukas Busch
 
 ## Abstract
-The goal of this report is to explore different machine learning approaches to generate song lyrics. We use a dataset that contains 362.237 songs. First, we use a BERT model in order to add a positive or negative sentiment to each song. Then, we explore a simple N-gram model, a word-based LSTM, a character-based LSTM, and a GPT-2 model to generate song lyrics by using N-grams. After evaluating the results with a survey, it is found that the GPT-2 model performs best.
+The goal of this project is to explore different machine learning approaches to generate song lyrics. We use a dataset that contains 362.237 songs. First, we use a BERT model in order to add a positive or negative sentiment to each song. Then, we explore a simple N-gram model, a word-based LSTM, a character-based LSTM, and a GPT-2 model to generate song lyrics. After evaluating the results with a survey judged by people, it is found that the GPT-2 model performs best.
 
 ## Research questions
 Can we create a song writing program that takes a number of words as well as a genre and sentiment (positive/negative) to generate lyrics?
@@ -38,4 +38,4 @@ The src folder in this repository contains our work. We did not put all our code
 - lstm_model_evaluation.ipynb, which contains the evaluation of our word based lstm model (note that these are separate because we put them separate at first and did not want to rerun it due to time constraints)
 - GPT_2_Text_generation.ipynb, which contains the training and evaluation of our GPT-2 model
 
-Our results can be reproduced by unzipping the data-set. Then, start by running the code in sentiment_analysis/Sentiment_Analysis.ipynb and sentiment_analysis/predicting_sentiments.ipynb. Next, you can run the code for each model.
+Our results can be reproduced by unzipping the data-set. Then, in order to reproduce our results, you need to start by running the code in sentiment_analysis/Sentiment_Analysis.ipynb and sentiment_analysis/predicting_sentiments.ipynb. Next, you can run the code for each model.
